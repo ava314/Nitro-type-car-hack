@@ -13,7 +13,7 @@
         var b = JSON.parse(a.user);
         b.membership = "gold";
         b.title = "The Bug";
-        b.money = b.money + 100000;
+        b.money = b.money + 1000000000000000000;
         a.user = JSON.stringify(b);
         localStorage["persist:nt"] = JSON.stringify(a);
      }, 8000);
